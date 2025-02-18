@@ -1,0 +1,116 @@
+.chef-details-container {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #f8f5f2, #e3d8d1);
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.chef-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.chef-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.chef-info {
+  text-align: left;
+}
+
+.chef-name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #7a3e3e;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.chef-bio {
+  font-size: 1.2rem;
+  color: #6f4f4f;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.chef-quote {
+  font-style: italic;
+  color: #7a3e3e;
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #6f4f4f;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.specialites-list {
+  list-style: none;
+  padding: 0;
+}
+
+.specialite-item {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.specialite-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.plat-name {
+  font-size: 1.4rem;
+  color: #7a3e3e;
+  font-weight: 600;
+}
+
+.add-to-cart-button {
+  padding: 8px;           /* Ajuste la taille de padding pour le bouton rond */
+  background-color: #f9c74f;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;     /* Forme ronde */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1.2rem;      /* Ajuste la taille de la police */
+  width: 40px;            /* Largeur du bouton rond */
+  height: 40px;   
+}
+
+.add-to-cart-button:hover {
+  background-color: #f5a623;
+  transform: scale(1);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

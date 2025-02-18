@@ -1,0 +1,95 @@
+.cart-container {
+  background-color: #f8f5f2;
+  border-radius: 12px;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #7a3e3e;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cart-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.plat-name {
+  font-size: 1.4rem;
+  color: #7a3e3e;
+  font-weight: 600;
+}
+
+.remove-button {
+  padding: 8px;           /* Ajuste la taille de padding pour le bouton rond */
+  background-color: #f9c74f;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;     /* Forme ronde */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1.2rem;      /* Ajuste la taille de la police */
+  width: 40px;            /* Largeur du bouton rond */
+  height: 40px;           /* Hauteur du bouton rond */
+}
+
+.remove-button:hover {
+  background-color: #f5a623;
+  transform: scale(1.1);
+}
+
+.empty-cart-message {
+  font-size: 1.5rem;
+  color: #b94e4e;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.checkout-button-container {
+  margin-top: 30px;
+}
+
+.checkout-button {
+  padding: 15px 30px;
+  background-color: #7a3e3e;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #f5a623;
+  transform: scale(1.1);
+}
