@@ -114,3 +114,8 @@
     opacity: 1;
   }
 }
+
+.plat-price {
+  font-weight: bold;
+  color: #7a3e3e;
+}

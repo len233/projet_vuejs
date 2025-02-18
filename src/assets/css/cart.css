@@ -93,3 +93,15 @@
   background-color: #f5a623;
   transform: scale(1.1);
 }
+
+.plat-price {
+  font-weight: bold;
+  color: #7a3e3e;
+}
+
+.total-price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #7a3e3e;
+  margin-top: 20px;
+}
